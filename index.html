@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1800 height=940 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/AvatarBuilder.loader.js";
+      var loaderUrl = buildUrl + "/ed39799ce4076059332ed12605627884.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/AvatarBuilder.data.unityweb",
-        frameworkUrl: buildUrl + "/AvatarBuilder.framework.js.unityweb",
-        codeUrl: buildUrl + "/AvatarBuilder.wasm.unityweb",
+        dataUrl: buildUrl + "/c256d6ba50bef95d9778cdf9edee608a.data.unityweb",
+        frameworkUrl: buildUrl + "/24ac62e30063327350a4eb110efd0311.framework.js.unityweb",
+        codeUrl: buildUrl + "/ac0d08811b78e5ce4a8e4fb32e2fbb61.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "AKA Virtual, Inc",
         productName: "Avatar Builder",
@@ -98,8 +98,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "1800px";
-        canvas.style.height = "940px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
