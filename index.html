@@ -52,12 +52,13 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/AvatarBuilder_SHorterBuildTime.loader.js";
+      var loaderUrl = buildUrl + "/AvatarBuilder.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/AvatarBuilder_SHorterBuildTime.data.unityweb",
-        frameworkUrl: buildUrl + "/AvatarBuilder_SHorterBuildTime.framework.js.unityweb",
-        codeUrl: buildUrl + "/AvatarBuilder_SHorterBuildTime.wasm.unityweb",
+        dataUrl: buildUrl + "/AvatarBuilder.data.unityweb",
+        frameworkUrl: buildUrl + "/AvatarBuilder.framework.js.unityweb",
+        workerUrl: buildUrl + "/AvatarBuilder.worker.js.unityweb",
+        codeUrl: buildUrl + "/AvatarBuilder.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "AKA Virtual, Inc",
         productName: "Avatar Builder",
